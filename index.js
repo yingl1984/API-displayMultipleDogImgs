@@ -37,7 +37,6 @@ function printThePic(){
     $('form').submit(event => {
         event.preventDefault();
         const quantity = $('form #quantity').val();
-        $('#results').show();
         getDogMultipleImg(quantity);
     });
 }
